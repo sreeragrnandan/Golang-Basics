@@ -8,5 +8,5 @@ func main() {
 	Const()
 
 	//Array types
-	Array()
+	ArraySlice()
 }

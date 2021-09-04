@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Array() {
+func ArraySlice() {
 	fmt.Println("\n Array")
 	// Static
 	var a [3]int
