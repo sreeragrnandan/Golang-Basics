@@ -7,4 +7,6 @@ func main() {
 	// Constant types
 	Const()
 
+	//Array types
+	Array()
 }
