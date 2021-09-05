@@ -18,4 +18,8 @@ func main() {
 	// If Else
 	fmt.Println("\nIfElse")
 	ifElse()
+
+	//For Loop
+	fmt.Println("\nForLoop")
+	ForLoop()
 }
