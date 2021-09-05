@@ -7,6 +7,9 @@ func main() {
 	// Constant types
 	Const()
 
-	//Array types
+	//Array and Slice
 	ArraySlice()
+
+	//Map & Structs
+	mapStruct()
 }
