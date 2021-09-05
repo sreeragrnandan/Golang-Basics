@@ -39,6 +39,25 @@ func normalStruct() {
 	fmt.Println(aStudent)
 }
 
+func EmbeddedStruct() {
+	type Animal struct {
+		Name   string
+		Origin string
+	}
+
+	type Bird struct {
+		Animal
+		SpeedKPH float32
+		CanFly   bool
+	}
+
+	b := Bird{}
+	b.Name = "Emu"
+	b.SpeedKPH = 48
+	b.CanFly = false
+	fmt.Println(b)
+}
+
 func mapStruct() {
 	fmt.Println("\n\nMap")
 	Map()

@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// Varialble types
 	Varialble()
@@ -12,4 +14,8 @@ func main() {
 
 	//Map & Structs
 	mapStruct()
+
+	// If Else
+	fmt.Println("\nIfElse")
+	ifElse()
 }
