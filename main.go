@@ -51,4 +51,20 @@ func main() {
 	d, err := divide(2, 0)
 	fmt.Println("divide(2, 0)", d, err)
 
+	// Method
+	g := greeter{
+		greeting: "Hello",
+		name:     "Go",
+	}
+	g.greet()
+
+}
+
+type greeter struct {
+	greeting string
+	name     string
+}
+
+func (g greeter) greet() {
+	fmt.Println(g.greeting, g.name)
 }
