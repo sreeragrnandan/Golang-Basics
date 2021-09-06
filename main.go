@@ -22,4 +22,7 @@ func main() {
 	//For Loop
 	fmt.Println("\nForLoop")
 	ForLoop()
+
+	fmt.Println("\nPanicFun")
+	PanicFun()
 }
